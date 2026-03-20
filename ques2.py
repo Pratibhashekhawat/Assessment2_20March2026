@@ -31,4 +31,5 @@ for i  in price:
 buttons = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//button[text()='Add to cart']")))
 buttons[3].click()
 print("4th product added to cart successfully!")
+sleep(4)
 driver.quit()
